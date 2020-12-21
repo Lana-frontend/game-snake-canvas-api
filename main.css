@@ -1,0 +1,133 @@
+.body{
+    display: grid;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('./img/backgr.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#game{
+    display: block;
+    align-self: start;
+    justify-self: center;
+    background: black;
+    border: 20px solid black;
+}
+
+nav {
+    width: 640px;
+    justify-self: center;
+    align-self: end;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+    background: #7cc44f;
+    border: 20px solid black;
+    border-bottom: none;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+nav p:last-child{
+    justify-self: end;
+}
+
+nav p {
+    font-size: 35px;
+    margin: 0;
+    color: white;
+    font-family: 'Nerko One', cursive;
+}
+
+.menu{
+    width: 640px;
+    height: 600px;
+    box-sizing: border-box;
+    justify-self: center;
+    display: grid;
+    background: #7cc44f;
+    border: 20px solid black;
+}
+
+.new{
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    gap: 10px;
+    justify-items: center;
+}
+
+.new div{
+    display: grid;
+    gap: 10px;
+}
+
+.new .title{
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: 'Nerko One', cursive;
+    font-size: 35px;
+}
+
+.new a {
+    font-size: 35px;
+    margin: 0;
+    color: black;
+    font-family: 'Nerko One', cursive;
+    border: 5px solid black;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: white;
+}
+
+.maker{
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    align-self: end;
+    font-family: 'Nerko One', cursive;
+    font-size: 35px;
+}
+
+#pause, #end-game {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 300px;
+    display: none;
+    justify-items: center;
+    align-items: center;
+    background:  #7cc44f;
+    border: 5px solid black;
+    border-radius: 4px;
+    width: 200px;
+    gap: 20px;
+    padding: 20px 40px 40px 40px;
+}
+
+#pause button, #pause a, #end-game button, #end-game a{
+    font-size: 35px;
+    margin: 0;
+    color: black;
+    font-family: 'Nerko One', cursive;
+    border: 5px solid black;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: white;
+}
+
+#pause p, #end-game p{
+    font-size: 35px;
+    margin: 0;
+    color: black;
+    font-family: 'Nerko One', cursive;
+}

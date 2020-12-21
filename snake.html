@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <title>Snake</title>
+</head>
+<body class="body">
+    <nav>
+        <p>Score: <span id="score">0</span></p>
+        <p>Bonus: <span id='bonus'>>></span></p>
+    </nav>
+
+    <canvas id="game" width="600px" height="600px"></canvas>
+
+    <div id="pause">
+        <p>Pause</p>
+        <a href="./index.html">Return to menu</a>
+        <button onclick="pauseGameChange()">Return to game</button>
+    </div>
+
+    <div id="end-game">
+        <p>End Game</p>
+        <a href="./index.html">Return to menu</a>
+        <button onclick="restartGame()">Restart game</button>
+    </div>
+    <script src="./snake.js"></script>
+</body>
+</html>

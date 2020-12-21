@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <title>Snake</title>
+</head>
+<body class="body">
+    <nav>
+        <p>Snake</p>
+        <p>Best score: <span id='bestScore'>0</span></p>
+    </nav>
+    <div class="menu" width="600px" height="600px">
+        <div class="new">
+            <p class="title">New game:</p>
+            <div>
+                <a href="snake.html" onclick="changeSpeed(1)">Eazy</a>
+                <a href="snake.html" onclick="changeSpeed(2)">Medium</a>
+                <a href="snake.html" onclick="changeSpeed(3)">Hard</a>
+            </div>
+        </div>
+        <a class="maker" href="https://www.linkedin.com/in/bogdan-velykodnyi-71b7971a8/">© Bogdan Velykodnyi</a>
+    </div>
+    <script src="./snake.js"></script>
+    <script src="./menu.js"></script>
+</body>
+</html>
